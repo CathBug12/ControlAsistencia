@@ -14,7 +14,11 @@ public class sesion extends AppCompatActivity {
     }
 
     public  void Registro(View view){
-        Intent next = new Intent(this,sesion.class);
+        Intent next = new Intent(this,registro.class);
+        startActivity(next);
+    }
+    public  void Recuperar(View view){
+        Intent next = new Intent(this,recuperar.class);
         startActivity(next);
     }
 }

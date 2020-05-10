@@ -34,9 +34,9 @@
         android:layout_width="293dp"
         android:layout_height="51dp"
         android:layout_above="@+id/txt_email"
-        android:layout_alignParentTop="true"
+        android:layout_below="@+id/txt_title"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="209dp"
+        android:layout_marginTop="85dp"
         android:layout_marginBottom="23dp"
         android:autofillHints=""
         android:background="@mipmap/rectan"
@@ -99,12 +99,12 @@
         android:id="@+id/cb_terminos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
+
+        android:layout_above="@+id/btn_next"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="87dp"
-        android:layout_marginBottom="262dp"
+        android:layout_marginBottom="21dp"
         android:buttonTint="#F0624C"
+        android:hint="@string/cb_terminos"
         android:text="@string/cb_terminos"
         android:textColor="#606060" />
 
