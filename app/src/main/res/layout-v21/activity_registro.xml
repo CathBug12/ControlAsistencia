@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bgregi"
+    tools:context=".registro">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="346dp"
+        android:layout_height="54dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+
+
+        android:gravity="center"
+        android:hint="@string/txt_reg"
+        android:text="@string/txt_reg"
+        android:textColor="#2E4B70"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/changa_semibold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txt_user"
+        android:layout_width="293dp"
+        android:layout_height="51dp"
+        android:layout_above="@+id/txt_email"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="209dp"
+        android:layout_marginBottom="23dp"
+        android:autofillHints=""
+        android:background="@mipmap/rectan"
+        android:drawableStart="@drawable/ic_user"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/txt_user"
+        android:inputType="textPersonName"
+        android:lineSpacingExtra="8sp"
+        android:paddingStart="16dp"
+        android:textColor="#333232"
+        android:textColorHint="#717171"
+        android:textSize="18sp"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/txt_email"
+        android:layout_width="293dp"
+        android:layout_height="51dp"
+        android:layout_above="@+id/txt_passw"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:autofillHints=""
+        android:background="@mipmap/rectan"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/txt_email"
+        android:inputType="textEmailAddress"
+        android:lineSpacingExtra="8sp"
+        android:paddingStart="16dp"
+        android:textColor="#333232"
+        android:textColorHint="#717171"
+        android:textSize="18sp"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/txt_passw"
+        android:layout_width="293dp"
+        android:layout_height="51dp"
+        android:layout_above="@+id/cb_terminos"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="321dp"
+        android:autofillHints=""
+        android:background="@mipmap/rectan"
+        android:drawableStart="@drawable/ic_passw"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/txt_passw"
+        android:inputType="textEmailAddress"
+        android:lineSpacingExtra="8sp"
+        android:paddingStart="16dp"
+        android:textColor="#333232"
+        android:textColorHint="#717171"
+        android:textSize="18sp"
+        tools:ignore="RtlSymmetry" />
+
+    <CheckBox
+        android:id="@+id/cb_terminos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginBottom="262dp"
+        android:buttonTint="#F0624C"
+        android:text="@string/cb_terminos"
+        android:textColor="#606060" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="113dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="203dp"
+        android:background="@mipmap/bott"
+        android:elevation="0dp"
+        android:hint="@string/btn_next"
+        android:shadowColor="#FFFFFF"
+        android:stateListAnimator="@null"
+        android:text="@string/btn_next"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/recu"
+    tools:context=".recuperar">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="344dp"
+        android:layout_height="123dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="319dp"
+        android:gravity="center"
+        android:hint="@string/txt_recu"
+        android:text="@string/txt_recu"
+        android:textColor="#F6F0F4"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/changa_semibold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/txt_email"
+        android:layout_width="293dp"
+        android:layout_height="51dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="275dp"
+        android:autofillHints=""
+        android:background="@mipmap/rectan"
+        android:drawableStart="@drawable/ic_user"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/txt_email"
+        android:inputType="textEmailAddress"
+        android:lineSpacingExtra="8sp"
+        android:paddingStart="16dp"
+        android:paddingEnd="0dp"
+        android:textColor="#333232"
+        android:textColorHint="#717171"
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:id="@+id/btn_recu"
+        android:layout_width="285dp"
+        android:layout_height="43dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="200dp"
+        android:background="@mipmap/bott"
+        android:hint="@string/btn_recu"
+        android:shadowColor="#FFFFFF"
+        android:stateListAnimator="@null"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_new"
+        android:layout_width="285dp"
+        android:layout_height="43dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="53dp"
+        android:background="#F6F0F4"
+        android:elevation="0dp"
+        android:hint="@string/btn_new"
+        android:shadowColor="#FFFFFF"
+        android:stateListAnimator="@null"
+        android:text="@string/btn_new"
+        android:textColor="#2E4B70"
+        android:textSize="14sp" />
+
+
+</RelativeLayout>

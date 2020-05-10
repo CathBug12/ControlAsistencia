@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Control_de_Asistencia</string>
+    <string name="txt_title">CONTROL DE ASISTENCIA</string>
+    <string name="txt_load">Cargando...</string>
+    <string name="txt_name">Elaborado por: Catherine Pamela Salguero Casani
+        Docente del curso: Wilder Nina Choquehuayta
+        Universidad Tecnológica del Perú (UTP)
+    </string>
+    <string name="txt_email">  Correo</string>
+    <string name="txt_passw">Contraseña</string>
+    <string name="txt_user">Usuario</string>
+    <string name="btn_iniciar">INICIAR</string>
+    <string name="btn_forgot">¿OLVIDÓ SU CONTRASEÑA?</string>
+    <string name="btn_new">¿ERES NUEVO? Regístrate aquí</string>
+
+    <string name="txt_reg">REGISTRO</string>
+    <string name="cb_terminos">Acepto términos y condiciones</string>
+    <string name="btn_next">CONTINUAR</string>
+
+    <string name="txt_recu">RECUPERAR CONTRASEÑA</string>
+    <string name="btn_recu">RECUPERAR</string>
+</resources>
