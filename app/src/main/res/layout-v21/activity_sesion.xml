@@ -103,14 +103,12 @@
         android:id="@+id/txt_title"
         android:layout_width="346dp"
         android:layout_height="54dp"
-        android:layout_above="@+id/txt_email"
 
         android:layout_alignParentTop="true"
+
+
         android:layout_centerHorizontal="true"
-
-
         android:layout_marginTop="32dp"
-        android:layout_marginBottom="319dp"
         android:gravity="center"
         android:hint="@string/txt_title"
         android:text="@string/txt_title"

@@ -76,6 +76,7 @@
         android:background="#F6F0F4"
         android:elevation="0dp"
         android:hint="@string/btn_new"
+        android:onClick="Registro"
         android:shadowColor="#FFFFFF"
         android:stateListAnimator="@null"
         android:text="@string/btn_new"
