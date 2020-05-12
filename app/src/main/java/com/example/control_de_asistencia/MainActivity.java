@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         p=(ProgressBar) findViewById(R.id.progressBar);
         Run();
+
     }
     public void Run(){
         Thread hilo=new Thread(new Runnable() {
