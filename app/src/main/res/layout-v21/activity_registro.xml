@@ -72,7 +72,7 @@
         tools:ignore="RtlSymmetry" />
 
     <EditText
-        android:id="@+id/txt_passw"
+        android:id="@+id/txt_password"
         android:layout_width="293dp"
         android:layout_height="51dp"
         android:layout_below="@+id/txt_email"
@@ -97,7 +97,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:layout_below="@+id/txt_passw"
+        android:layout_below="@+id/txt_password"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="40dp"

@@ -58,7 +58,7 @@
         android:textSize="14sp" />
 
     <EditText
-        android:id="@+id/txt_passw"
+        android:id="@+id/txt_password"
         android:layout_width="293dp"
         android:layout_height="51dp"
         android:layout_above="@+id/btn_iniciar"
