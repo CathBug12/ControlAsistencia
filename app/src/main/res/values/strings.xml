@@ -2,8 +2,9 @@
     <string name="app_name">Control_de_Asistencia</string>
     <string name="txt_title">CONTROL DE ASISTENCIA</string>
     <string name="txt_load">Cargando...</string>
-    <string name="txt_name">Elaborado por: Catherine Pamela Salguero Casani
-        Docente del curso: Wilder Nina Choquehuayta
+    <string name="txt_name">
+        Elaborado por: Catherine Pamela Salguero Casani \n
+        Docente: Wilder Nina Choquehuayta \n
         Universidad Tecnológica del Perú (UTP)
     </string>
     <string name="txt_email">  Correo</string>
@@ -15,6 +16,7 @@
 
     <string name="txt_reg">REGISTRO</string>
     <string name="cb_terminos">Acepto términos y condiciones</string>
+    <string name="btn_info">INFORMACIÓN</string>
     <string name="btn_next">CONTINUAR</string>
 
     <string name="txt_recu">RECUPERAR CONTRASEÑA</string>
