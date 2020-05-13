@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txt_welcome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bgwelcome"
+    tools:context=".inicio">
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="346dp"
+        android:layout_height="54dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+
+
+        android:gravity="center"
+        android:hint="@string/txt_title"
+        android:text="@string/txt_title"
+        android:textColor="#F6F0F4"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/changa_semibold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="287dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/title2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginLeft="61dp"
+        android:layout_marginTop="77dp"
+        android:hint="@string/txt_welcome"
+        android:textColor="#574F4F"
+        android:textSize="24sp" />
+
+</RelativeLayout>

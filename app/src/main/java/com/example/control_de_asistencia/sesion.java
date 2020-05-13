@@ -38,7 +38,9 @@ public class sesion extends AppCompatActivity {
         String sql = "SELECT ID, USER, EMAIL, PASS FROM PERSONA WHERE EMAIL='"+email+"' AND PASS='"+password+"'";
         Cursor c = db.rawQuery(sql,null);
         if(c.moveToFirst()){
-            Toast.makeText(this, "BIENVENIDO."+ c.getString(1),Toast.LENGTH_LONG).show();
+            Intent in = new Intent(this, inicio.class);
+            in.putExtra("user", c.getString(1));
+            startActivity(in);
             db.close();
         } else{
 

@@ -2,6 +2,7 @@ package com.example.control_de_asistencia;
 
 import android.annotation.SuppressLint;
 import android.content.ContentValues;
+import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.support.v7.app.AppCompatActivity;
@@ -73,6 +74,8 @@ public class registro extends AppCompatActivity {
                 db.insert("PERSONA", null, c);
                 db.close();
                 Toast.makeText(this, "Registro insertado.", Toast.LENGTH_LONG).show();
+                Intent i = new Intent(this, sesion.class);
+                startActivity(i);
             } catch (Exception e){
                 Toast.makeText(this, "Error:"+e.getMessage(), Toast.LENGTH_LONG).show();
             }
