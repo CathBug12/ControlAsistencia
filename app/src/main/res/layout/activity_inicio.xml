@@ -10,8 +10,8 @@
 
     <TextView
         android:id="@+id/title2"
-        android:layout_width="346dp"
-        android:layout_height="54dp"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
         android:layout_alignParentTop="true"
 
         android:layout_centerHorizontal="true"
@@ -40,9 +40,105 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="61dp"
         android:layout_marginLeft="61dp"
-        android:layout_marginTop="77dp"
+        android:layout_marginTop="72dp"
+        android:gravity="center"
         android:hint="@string/txt_welcome"
         android:textColor="#574F4F"
         android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="176dp"
+        android:layout_height="153dp"
+        android:layout_below="@+id/tv_welcome"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="64dp"
+        android:contentDescription="@string/img_profile"
+        app:srcCompat="@mipmap/f" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="195dp"
+        android:layout_height="146dp"
+        android:layout_below="@+id/tv_welcome"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:contentDescription="@string/img_card"
+        app:srcCompat="@mipmap/cad_options" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="148dp"
+        android:layout_height="104dp"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_alignEnd="@+id/imageView3"
+        android:layout_alignRight="@+id/imageView3"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="37dp"
+        android:contentDescription="@string/img_cardi"
+        app:srcCompat="@mipmap/card_image" />
+
+    <ImageButton
+        android:id="@+id/btn_course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_marginStart="145dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="61dp"
+        android:background="#FFFF"
+        android:contentDescription="@string/btn_cont"
+        android:tint="#2E4B70"
+        app:srcCompat="@drawable/ic_n" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="283dp"
+        android:layout_height="49dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp"
+        android:background="#CA7882"
+        android:text="@string/btn_as" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="116dp"
+        android:layout_height="74dp"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_alignEnd="@+id/imageView3"
+        android:layout_alignRight="@+id/imageView3"
+        android:layout_marginTop="-15dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:contentDescription="@string/btn_course"
+        app:srcCompat="@drawable/ic_course" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:background="#CA7882"
+        android:text="@string/btn_jus" />
+
 
 </RelativeLayout>
