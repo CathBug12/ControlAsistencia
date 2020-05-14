@@ -31,4 +31,6 @@
     <string name="btn_as"> ASISTENCIAS </string>
     <string name="btn_jus"> JUSTIFICACIONES </string>
 
+    <string name="txt_course">MIS CURSOS</string>
+
 </resources>

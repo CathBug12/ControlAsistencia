@@ -1,4 +1,4 @@
-package com.example.control_de_asistencia;
+package Model;
 
 public class model_user {
     private int id;
