@@ -40,6 +40,7 @@ public class sesion extends AppCompatActivity {
         if(c.moveToFirst()){
             Intent in = new Intent(this, inicio.class);
             in.putExtra("user", c.getString(1));
+            in.putExtra("iduser", c.getString(2));
             startActivity(in);
             db.close();
         } else{

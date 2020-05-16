@@ -1,5 +1,6 @@
 package com.example.control_de_asistencia;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -31,17 +32,18 @@ public class cursos extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                if(position==0){
-                    Toast.makeText(cursos.this, "Curso", Toast.LENGTH_SHORT).show();
-                }
-                if(position==1){
-                    Toast.makeText(cursos.this, "Curso", Toast.LENGTH_SHORT).show();
-                }
-                if(position==2){
-                    Toast.makeText(cursos.this, "Curso", Toast.LENGTH_SHORT).show();
-                }
+                Sesiones(position, mTitle[position]);
+
             }
         });
+    }
+
+    public void Sesiones(int position, String mTitle){
+        Intent i = new Intent(getApplicationContext(), sesiones.class);
+        String pos=Integer.toString(position);
+        i.putExtra("position", pos);
+        i.putExtra("curso", mTitle);
+        startActivity(i);
     }
 
 

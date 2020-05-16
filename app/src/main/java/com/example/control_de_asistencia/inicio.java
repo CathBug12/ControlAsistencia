@@ -32,6 +32,7 @@ public class inicio extends AppCompatActivity {
 
     public void Siguiente(View view){
         Intent siguiente = new Intent(this, cursos.class);
+        siguiente.putExtra("iduser", getIntent().getStringExtra("iduser"));
         startActivity(siguiente);
     }
 }

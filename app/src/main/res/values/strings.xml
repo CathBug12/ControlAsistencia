@@ -33,4 +33,7 @@
 
     <string name="txt_course">MIS CURSOS</string>
 
+    <string name="txt_sesiones">MIS SESIONES</string>
+    <string name="txt_nombre_curso"></string>
+
 </resources>

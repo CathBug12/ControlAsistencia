@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".cursos"></activity>
+        <activity android:name=".sesiones"></activity>
+        <activity android:name=".cursos" />
         <activity android:name=".inicio" />
         <activity android:name=".recuperar" />
         <activity android:name=".registro" />

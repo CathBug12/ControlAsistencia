@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".sesiones">
+
+    <TextView
+        android:id="@+id/txt_sesiones"
+        android:layout_width="412dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="0dp"
+        android:background="#2E4B70"
+        android:gravity="center"
+        android:text="@string/txt_sesiones"
+
+        android:textColor="#E3E3E3"
+        android:textSize="24sp"
+        app:fontFamily="@font/changa_semibold"/>
+
+    <ListView
+        android:id="@+id/lv_sesiones"
+        android:layout_width="match_parent"
+        android:layout_height="610dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="17dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_sesiones"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:gravity="center"
+        android:text="@string/txt_nombre_curso"
+        android:textColor="#818181"
+        android:textStyle="bold" />
+
+</RelativeLayout>
