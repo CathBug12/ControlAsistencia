@@ -7,7 +7,6 @@ import android.support.annotation.Nullable;
 
 public class BaseHelper extends SQLiteOpenHelper {
     String tabla="CREATE TABLE PERSONA (ID INTEGER PRIMARY KEY, USER TEXT, EMAIL TEXT, PASS TEXT)";
-    String t_cursos="CREATE TABLE SESION (COD INTEGER PRIMARY KEY, ESTADO TEXT, FECHA TEXTO, HINICIO REAL, HFIN REAL, IDCURSO INTEGER, IDUSER INTEGER)";
 
 
 
